@@ -94,6 +94,8 @@ public class TeamActivity extends Activity {
                 R.drawable.jeangraff);
         setTeamMember("Mahmoud", getString(R.string.maintainer_title), "MahmoudK1000", "MahmoudK1000",
                 R.drawable.mahmoud);
+        setTeamMember ("Flamefusion", getString(R.string.maintainer_title), " Flamefusion", "Flamefusion",
+                R.drawable.flamefusion);       
 
         ListAdapter mAdapter = new ListAdapter(mList);
         mRecycleview.setAdapter(mAdapter);
